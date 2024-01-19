@@ -1,0 +1,109 @@
+
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    header {
+        background-color: #f1f1f1;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    header h1 {
+        margin: auto;
+        color: rgb(20, 155, 20);
+        box-shadow: #660808;
+        padding: auto;
+        background-color: #d7cece;
+    }
+    img {
+        width: auto;
+        height: 200px;
+      }
+    
+    .navig {
+        background-color: #660808;
+        padding: 10px;
+    }
+    
+    .navi {
+        list-style-type: none;
+        padding: 0;
+        text-align: center;
+    }
+    
+    .navi li {
+        display: inline-block;
+        margin: 0 10px;
+    }
+    
+    .navi a {
+        color: #fff;
+        text-decoration: none;
+        padding: 10px;
+        right: 20px;
+        left: auto;
+        box-shadow: #eb0a0a;
+    }
+    
+    .hom {
+        padding: 20px;
+        color-scheme: rgb(18, 18, 237);
+    }
+    .skills{
+        padding: 10px;
+        color: rgb(247, 150, 4);
+    }
+    .skills H2{
+        color: #eb0a0a;
+    }
+    
+    .education {
+        margin-bottom: 20px;
+        color: blueviolet;
+        padding: 10px;
+    }
+    
+    .contact {
+        margin: 10px;
+        padding: 10px;
+        color: #eb0a0a;
+    }
+    .experience{
+        padding: 10px;
+        color: brown;
+    }
+    .experience ul {
+        list-style-type: square;
+        padding-left: 20px;
+        color: #333;
+    }
+    
+    article {
+        margin-bottom: 20px;
+    }
+    
+    article h3 {
+        margin: 0 0 10px;
+    }
+    
+    footer {
+        background-color: #1a0202;
+        padding: 10px;
+        text-align: center;
+        text-shadow: #f1f1f1;
+        color: aqua;
+    }
+    
+    @media screen and (max-width: auto) {
+        .nav li {
+            display: block;
+            margin: 10px 0;
+        }
+    }
